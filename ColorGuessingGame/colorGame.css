@@ -1,0 +1,70 @@
+#mainBody {
+    background-color: #232323;
+    margin: 0;
+    font-family: "avenir";
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    background-color: steelblue;
+    text-align: center;
+    font-weight: 600;
+    line-height: 5px;
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 100%;
+}
+
+.square {
+    width: 180px; 
+    height: 180px;
+    margin: 10px 10px;
+}
+
+.row {
+    padding-top: 15px;
+    max-width: 60%;
+}
+
+#stripe {
+    background-color: white;
+    text-align: center;
+    color: #000000;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+    border: 0;
+    height: 100%;
+}
+
+#msgDisplay {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+.square {
+    border-radius: 10%;
+    transition: background-color 0.4s;
+}
+
+button {
+    height: 100%;
+    border: 0;
+    padding: 6px;
+}
+
+#resetButton {
+    text-transform: uppercase;
+}
+
+#resetButton:hover {
+    background-color: steelblue;
+    color: white;
+    transition: all 0.3s;
+}
